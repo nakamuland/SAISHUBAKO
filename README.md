@@ -54,6 +54,8 @@ python -m esptool --chip esp32s3 --port COM17 --before no_reset --baud 460800 wr
 Windowsでは同梱の`flash.ps1 -Port COM17`でも書き込めます。
 macOS/Linuxではポート名を`/dev/cu.usbmodem...`や`/dev/ttyACM0`などに置き換えてください。
 BINのSHA256は`SHA256SUMS.txt`に記載しています。
+同梱BINは実機で確認した版と同じアプリソースから、開発PCのパスを置き換える設定で再ビルドしています。
+公開用BINのビルドとイメージ検証を行っていますが、その再ビルド後のBIN自体は実機へ再書き込みしていません。
 
 バックアップへ戻す場合は、再び書き込みモードにして実行します。
 

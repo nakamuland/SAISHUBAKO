@@ -1,0 +1,10 @@
+.pio/
+.vscode/
+__pycache__/
+*.log
+*.partial
+*.backup.bin
+cardputer-before-*.bin
+SAISHU/
+.env
+.env.*
